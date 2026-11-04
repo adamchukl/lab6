@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Mystery Egg</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Mystery Egg</h1>
+        <p>Discover which Pokémon is hiding inside!</p>
+
+        <div id="pokemonCard">
+            <p id="pokemonNumber">???</p>
+            <div id="egg">🥚</div>
+            <img id="pokemonImage" alt="Pokemon">
+
+            <h2 id="pokemonName">Mystery Pokémon</h2>
+            <p id="pokemonType">Type: ???</p>
+
+            <div id="stats">
+                <p id="hp"></p>
+                <p id="attack"></p>
+                <p id="defense"></p>
+            </div>
+        </div>
+
+        <button id="hatchButton" onclick="hatchEgg()">Hatch Egg</button>
+
+        <p id="message">Click the button to hatch your egg!</p>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

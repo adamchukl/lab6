@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ec;
+    text-align: center;
+    color: #414c64;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+h1{
+    font-size: 32px;
+}
+
+button{
+    background-color: #8c83bb;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 35px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#pokemonImage{
+    display: none;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 10px auto;
+}
+
+#pokemonCard{
+    background-color: #e5e0f3;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px;
+}
+
+#egg{
+    font-size: 130px;
+    margin: 30px 0;
+    cursor: pointer;
+}
