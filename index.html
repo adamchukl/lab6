@@ -15,7 +15,7 @@
 
         <div id="pokemonCard">
             <p id="pokemonNumber">???</p>
-            <div id="egg">🥚</div>
+            <img id="egg" src="images/egg.png" alt="Mystery Pokémon Egg">
             <img id="pokemonImage" alt="Pokemon">
 
             <h2 id="pokemonName">Mystery Pokémon</h2>
@@ -31,6 +31,14 @@
         <button id="hatchButton" onclick="hatchEgg()">Hatch Egg</button>
 
         <p id="message">Click the button to hatch your egg!</p>
+        <div id="collectionSection">
+            <h2>My Pokémon Collection</h2>
+            <p id="collectionCount">Collected: 0 / 151</p>
+
+            <div id="collection"></div>
+
+            <button id="resetButton" onclick="resetCollection()">Reset Collection</button>
+        </div>
     </div>
 
     <script src="js/script.js"></script>
